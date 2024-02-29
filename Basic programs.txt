@@ -1,0 +1,76 @@
+//Write a program to find the maximum of two numbers.
+using System;
+class HelloWorld {
+  static void Main() {
+    int a, b;
+    Console.WriteLine("Enter a number for a:");
+    a = int.Parse(Console.ReadLine());
+    Console.WriteLine("Enter a number for b:");
+    b = int.Parse(Console.ReadLine());
+    if(a>b)
+    {
+        Console.WriteLine("{0} is max",a);
+    }
+    else
+    {
+        Console.WriteLine("{0} is max",b);
+    }
+    
+  }
+}
+
+//Write a program to find the minimum of two numbers.
+using System;
+class HelloWorld {
+  static void Main() {
+    int a, b;
+    Console.WriteLine("Enter a number for a:");
+    a = int.Parse(Console.ReadLine());
+    Console.WriteLine("Enter a number for b:");
+    b = int.Parse(Console.ReadLine());
+    if(a<b)
+    {
+        Console.WriteLine("a= {0} is minimum number",a);
+    }
+    else
+    {
+        Console.WriteLine("b= {0} is minimum number",b);
+    }
+    
+  }
+}
+
+//Write a program to swap two numbers without using a temporary variable.
+using System;
+class HelloWorld {
+  static void Main() {
+    int a, b;
+    Console.WriteLine("Enter a number for a:");
+    a = int.Parse(Console.ReadLine());
+    Console.WriteLine("Enter a number for b:");
+    b = int.Parse(Console.ReadLine());
+    Console.WriteLine("Before swapping a = {0} b = {1}",a,b);
+    a=a*b;
+    b=a/b;
+    a=a/b;
+    Console.WriteLine("After swapping a = {0} b = {1}",a,b);
+  }
+}
+
+/Write a program to check if a number is even or odd.
+using System;
+class HelloWorld {
+  static void Main() {
+    int a;
+    Console.WriteLine("Enter a number for a:");
+    a = int.Parse(Console.ReadLine());
+    
+    if(a%2==0)
+    {
+      Console.WriteLine("Enter a number is a even ");
+    }
+    else{
+        Console.WriteLine("Enter number is odd ");
+    }
+  }
+}
